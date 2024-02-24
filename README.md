@@ -13,8 +13,9 @@ The format in which your data should be input to score.txt is:
 ]
 
 The microservice then reads this data using read_scores() and in update_leaderboard() it sorts the scores, removes 100% identical
-submissions, ensures the datetime is not in the future, and then writes the top ten scores to file by calling
+submissions, ensures the datetime is not in the future, and then writes the top ten scores to leaderboard.txt by calling
 write_leaderboard(scores).
 
+You can retrieve the data from leaderboard.txt
 
 ![UML (1)](https://github.com/Hannalore02/Leaderboard/assets/104226977/fad2a6a4-7f68-44af-8ff9-ac1865085803)
